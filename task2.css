@@ -1,0 +1,77 @@
+@import url("task1.css");
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url("Robot.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(68, 100, 116);
+    color: aqua;
+}
+.logo {
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.links li{
+    padding: 15px;
+    list-style: none;
+}
+.content1{
+    margin-top: 15%;
+    font-size: 8rem;
+    color: rgb(86, 101, 115);
+}
+.content2{
+    color: aqua;
+    color: rgb(32, 172, 252);
+    font-size: 2rem;
+}
+.content3{
+    color: rgb(15, 203, 203);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.btn button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.content1,.content2,.content3,.btn{
+    margin-left: 10rem;
+    margin-right: 50rem;
+}
+
+a{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
